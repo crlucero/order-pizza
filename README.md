@@ -15,8 +15,8 @@ This is a program that will simulate a website where people are able to build th
 * Example Input: "Pepperoni"
 * Example output: "You have added pepperoni to your pizza"
 #### Behavior: The program will tell user the cost of their pizza
-* Example Input: "XL, Pepperoni Pizza"
-* Example output: "Your total for an XL Pepperoni Pizza will be $12"
+* Example Input: "Large, Pepperoni Pizza"
+* Example output: "Your total for an Large Pepperoni Pizza will be $12"
 
 
 ## Setup/Installation Requirements
@@ -27,7 +27,7 @@ This is a program that will simulate a website where people are able to build th
 
 
 ## Known Bugs
-
+The program does not currently notify what size of pizza the customer ordered.
 
 
 ## Support and contact details
