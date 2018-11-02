@@ -3,15 +3,14 @@ var pizzaPrice = 0;
 
 
         //Pizza Constructor
-function MyPizza (pizzaSize, pizzaTopping) {
+function Pizza (pizzaSize, pizzaTopping) {
     this.pizzaSize = pizzaSize,
     this.pizzaTopping = pizzaTopping,
     this.pizzaPrice = 0;
 }
 
-
         //Prototype for determing the customer's prices based off selections.
-MyPizza.prototype.getPrice = function() {
+Pizza.prototype.getPrice = function() {
     if (this.pizzaSize === 'small') {
         this.pizzaPrice = this.pizzaTopping.length + 8
         return this.pizzaPrice 
