@@ -20,9 +20,9 @@ This is a program that will simulate a website where people are able to build th
 
 
 ## Setup/Installation Requirements
-    Clone repository from Github
-    Open in text editor
-    Use index.html to open website
+* Clone repository from Github
+* Open in text editor
+* Use index.html to open website
 
 
 
@@ -36,19 +36,17 @@ For any quesitons contact me at: cristianjlucero32@gmail.com
 
 ## Technologies Used
 
-HTML
-CSS
-JQuery
-Javascript
-Bootstrap
-Visual Studio Code (text editor)
+* HTML
+* CSS
+* JQuery
+* Javascript
+* Bootstrap
+* Visual Studio Code (text editor)
 
-##Link to website
+
 
 
 ### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
 Copyright (c) 2018 Cristian Lucero
 
