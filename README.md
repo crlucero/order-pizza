@@ -8,15 +8,15 @@
 This is a program that will simulate a website where people are able to build their own pizza and order it.
 
 ## Specs
-#### Behavior: Program replaces 0 with "Beep!"
-* Example Input: 
-* Example Output: 
-#### Behavior: 
-* Example Input: 
-* Example output: 
-#### Behavior: 
-* Example Input: 
-* Example output: 
+#### Behavior: The program will allow user to pick a size of pizza
+* Example Input: "Small"
+* Example Output: "You have ordered a small pizza"
+#### Behavior: The program allows user to pick pizza topping
+* Example Input: "Pepperoni"
+* Example output: "You have added pepperoni to your pizza"
+#### Behavior: The program will tell user the cost of their pizza
+* Example Input: "XL, Pepperoni Pizza"
+* Example output: "Your total for an XL Pepperoni Pizza will be $12"
 
 
 ## Setup/Installation Requirements
