@@ -35,7 +35,9 @@ Pizza.prototype.getPrice = function() {
 // Front End
 $(document).ready(function() {
     event.preventDefault();
-
-
-
+$("form#form").submit(functoin(event) {
+    var selectedPizzaSize = $("select#pizzaSize").children("option:selected").val();
+    var selectedToppings = [];
+        $("input[type=checkbox][name=]
+    }
 });
