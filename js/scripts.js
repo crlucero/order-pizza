@@ -1,6 +1,9 @@
 // Backend
-
-var pizzaPrice = 0;
+var pizzaPrice = {
+    small: 'small',
+    medium: 'medium',
+    large: 'large'
+}
 
 function Pizza (pizzaSize, pizzaTopping) {
     this.pizzaSize = pizzaSize;
@@ -12,21 +15,19 @@ function Pizza (pizzaSize, pizzaTopping) {
 Pizza.prototype.getPrice = function() {
 
     if (this.pizzaSize === "small") {
-        this.pizzaPrice = this.pizzaTopping.length +8
+        this.pizzaPrice = this.pizzaTopping.length +8;
         return this.pizzaPrice
      }
      else if  (this.pizzaSize === "medium") {        
-         this.pizzaPrice = this.pizzaTopping.length +10     
+         this.pizzaPrice = this.pizzaTopping.length +10;    
          return pizzaPrice
      }
-     else if (this.pizzaSize === "Large"){
-         this.pizzaPrice = this.pizzaTopping.length +12
+     else {
+         this.pizzaPrice = this.pizzaTopping.length +12;
          return this.pizzaPrice
      }
-     else {
         //  alert("You did not select a size. Please choose the size of pizza you would like to order.")
          
-     }
 }
 
 // Front End
