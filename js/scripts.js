@@ -20,7 +20,7 @@ Pizza.prototype.getPrice = function() {
      }
      else if  (this.pizzaSize === "medium") {        
          this.pizzaPrice = this.pizzaTopping.length +10;    
-         return pizzaPrice
+         return this.pizzaPrice
      }
      else {
          this.pizzaPrice = this.pizzaTopping.length +12;
